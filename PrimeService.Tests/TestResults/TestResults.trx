@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TestRun id="dbff725b-fd76-4eb0-9260-7257f8006e0b" name="shrey@LAPTOP-8LVP1KML 2022-04-08 22:45:43" runUser="LAPTOP-8LVP1KML\shrey" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <Times creation="2022-04-08T22:45:43.8904343+05:30" queuing="2022-04-08T22:45:43.8904347+05:30" start="2022-04-08T22:45:42.1953619+05:30" finish="2022-04-08T22:45:43.9018347+05:30" />
+  <TestSettings name="default" id="cd232701-f1f4-4b31-9bca-d72980af3b70">
+    <Deployment runDeploymentRoot="shrey_LAPTOP-8LVP1KML_2022-04-08_22_45_43" />
+  </TestSettings>
+  <Results>
+    <UnitTestResult executionId="5829851d-0c83-4b24-8f60-13d51ecb5ada" testId="e259be0f-01b1-869b-561a-e282c5ef294a" testName="TestPrimeFunction(1)" computerName="LAPTOP-8LVP1KML" duration="00:00:00.0002230" startTime="2022-04-08T22:45:43.6375672+05:30" endTime="2022-04-08T22:45:43.6377901+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="5829851d-0c83-4b24-8f60-13d51ecb5ada" />
+    <UnitTestResult executionId="1d7c7a17-21bb-4488-90e4-ebd21c54da40" testId="fb251922-a76a-ded1-0f22-5a6cfc1831d3" testName="TestPrimeFunction(2)" computerName="LAPTOP-8LVP1KML" duration="00:00:00.0063850" startTime="2022-04-08T22:45:43.6309491+05:30" endTime="2022-04-08T22:45:43.6373347+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="1d7c7a17-21bb-4488-90e4-ebd21c54da40" />
+    <UnitTestResult executionId="4f737eaf-a763-47a8-84f7-fbc6a13ed70b" testId="44c61032-27de-57da-f597-af8c4826fae2" testName="TestPrimeDivideByZero" computerName="LAPTOP-8LVP1KML" duration="00:00:00.0280790" startTime="2022-04-08T22:45:43.5957150+05:30" endTime="2022-04-08T22:45:43.6236749+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="4f737eaf-a763-47a8-84f7-fbc6a13ed70b" />
+    <UnitTestResult executionId="344a2fa8-3b16-49ed-8135-90074bb8a91d" testId="4445fb7a-ebaf-9d48-87c7-d5ff16d4bf7c" testName="TestPrimeFunction(-1)" computerName="LAPTOP-8LVP1KML" duration="00:00:00.0000720" startTime="2022-04-08T22:45:43.6378033+05:30" endTime="2022-04-08T22:45:43.6378751+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="344a2fa8-3b16-49ed-8135-90074bb8a91d" />
+  </Results>
+  <TestDefinitions>
+    <UnitTest name="TestPrimeFunction(-1)" storage="c:\users\shrey\source\repos\dotnet\unitdemo\primeservice.tests\bin\debug\net6.0\primeservice.tests.dll" id="4445fb7a-ebaf-9d48-87c7-d5ff16d4bf7c">
+      <Execution id="344a2fa8-3b16-49ed-8135-90074bb8a91d" />
+      <TestMethod codeBase="C:\Users\shrey\source\repos\DotNet\unitDemo\PrimeService.Tests\bin\Debug\net6.0\PrimeService.Tests.dll" adapterTypeName="executor://nunit3testexecutor/" className="PrimeService.Tests.PrimeServiceTests" name="TestPrimeFunction(-1)" />
+    </UnitTest>
+    <UnitTest name="TestPrimeDivideByZero" storage="c:\users\shrey\source\repos\dotnet\unitdemo\primeservice.tests\bin\debug\net6.0\primeservice.tests.dll" id="44c61032-27de-57da-f597-af8c4826fae2">
+      <Execution id="4f737eaf-a763-47a8-84f7-fbc6a13ed70b" />
+      <TestMethod codeBase="C:\Users\shrey\source\repos\DotNet\unitDemo\PrimeService.Tests\bin\Debug\net6.0\PrimeService.Tests.dll" adapterTypeName="executor://nunit3testexecutor/" className="PrimeService.Tests.PrimeServiceTests" name="TestPrimeDivideByZero" />
+    </UnitTest>
+    <UnitTest name="TestPrimeFunction(2)" storage="c:\users\shrey\source\repos\dotnet\unitdemo\primeservice.tests\bin\debug\net6.0\primeservice.tests.dll" id="fb251922-a76a-ded1-0f22-5a6cfc1831d3">
+      <Execution id="1d7c7a17-21bb-4488-90e4-ebd21c54da40" />
+      <TestMethod codeBase="C:\Users\shrey\source\repos\DotNet\unitDemo\PrimeService.Tests\bin\Debug\net6.0\PrimeService.Tests.dll" adapterTypeName="executor://nunit3testexecutor/" className="PrimeService.Tests.PrimeServiceTests" name="TestPrimeFunction(2)" />
+    </UnitTest>
+    <UnitTest name="TestPrimeFunction(1)" storage="c:\users\shrey\source\repos\dotnet\unitdemo\primeservice.tests\bin\debug\net6.0\primeservice.tests.dll" id="e259be0f-01b1-869b-561a-e282c5ef294a">
+      <Execution id="5829851d-0c83-4b24-8f60-13d51ecb5ada" />
+      <TestMethod codeBase="C:\Users\shrey\source\repos\DotNet\unitDemo\PrimeService.Tests\bin\Debug\net6.0\PrimeService.Tests.dll" adapterTypeName="executor://nunit3testexecutor/" className="PrimeService.Tests.PrimeServiceTests" name="TestPrimeFunction(1)" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestEntries>
+    <TestEntry testId="e259be0f-01b1-869b-561a-e282c5ef294a" executionId="5829851d-0c83-4b24-8f60-13d51ecb5ada" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="fb251922-a76a-ded1-0f22-5a6cfc1831d3" executionId="1d7c7a17-21bb-4488-90e4-ebd21c54da40" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="44c61032-27de-57da-f597-af8c4826fae2" executionId="4f737eaf-a763-47a8-84f7-fbc6a13ed70b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="4445fb7a-ebaf-9d48-87c7-d5ff16d4bf7c" executionId="344a2fa8-3b16-49ed-8135-90074bb8a91d" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <ResultSummary outcome="Completed">
+    <Counters total="4" executed="4" passed="4" failed="0" error="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+    <Output>
+      <StdOut>NUnit Adapter 4.0.0.0: Test execution started&#xD;
+Running all tests in C:\Users\shrey\source\repos\DotNet\unitDemo\PrimeService.Tests\bin\Debug\net6.0\PrimeService.Tests.dll&#xD;
+   NUnit3TestExecutor discovered 4 of 4 NUnit test cases using Current Discovery mode, Non-Explicit run&#xD;
+NUnit Adapter 4.0.0.0: Test execution complete&#xD;
+</StdOut>
+    </Output>
+  </ResultSummary>
+</TestRun>
